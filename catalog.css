@@ -1,0 +1,141 @@
+ body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #808080, #ffffff);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(to right, Black, Gray);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.menu-item img{
+    width: 150px;
+    height: 130px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: Gainsboro;
+    color: Silver;
+}
+header {
+    background-color: DarkGray;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    background-image: url('https://st4.depositphotos.com/1020070/40972/v/450/depositphotos_409721862-stock-illustration-salmon-trout-fish-meat-texture.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+}
+.hero h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.2rem;
+}
+.menu {
+    padding: 50px 20px;
+    text-align: center;
+}
+.menu h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.menu-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+.menu-item:hover, .menu-sets:hover {
+    transform: scale(1.05);
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer a {
+    color: #ff6347;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+.hero {
+    text-align: center;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/03/02/47/42/1000_F_302474242_RNEDoao9qVuhY5z68cznXZ9K0KpzSi7k.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+}
+
+.menu-sets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s; 
+}
+
+.menu-sets img{
+    width: 400px;
+    height: 300px;
+}
+
+.item-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    <p style="font-size: 30px">
+}
