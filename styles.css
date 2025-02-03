@@ -1,0 +1,164 @@
+body {
+    font-family: sans-serif;
+}
+
+.menu-item img{
+    width: 150px;
+    height: 130px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: Gainsboro;
+    color: Silver;
+}
+
+header {
+    background-color: DarkGray;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    background: linear-gradient(to right, Black, Gray);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/03/02/47/42/1000_F_302474242_RNEDoao9qVuhY5z68cznXZ9K0KpzSi7k.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.2rem;
+}
+.menu {
+    padding: 50px 20px;
+    text-align: center;
+}
+.menu h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.menu-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+.menu-item:hover {
+    transform: scale(1.05);
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer a {
+    color: #ff6347;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    background: linear-gradient(to right, Black, Gray);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.8em;
+}
+
+.highlight {
+    color: #d33a2c;
+    font-weight: bold;
+}
+
+.advantages {
+    text-align: left;
+}
+
+.advantages p {
+    margin: 10px 0;
+}
+
+.advantages p::before {
+    content: " ";
+    color: #d33a2c;
+    font-size: 1.2em;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #d33a2c;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #b12e23;
+}
+
+#hero{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0;
+}
+
+.main-text{
+    font-size: 20px;
+}
